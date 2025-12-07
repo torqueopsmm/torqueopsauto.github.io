@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Contact – TorqueOps Auto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Contact TorqueOps Auto mobile mechanic for quotes, bookings, and emergency support." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-block">
+        <span class="logo-main">Torque<span class="accent">Ops</span></span>
+        <span class="logo-sub">Mobile Mechanic Operations</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Request an Operation</h1>
+      <p class="lead">
+        Drop the intel: vehicle info, symptoms, location, and how urgent it is.
+        I’ll respond as soon as I’m clear from any current job.
+      </p>
+
+      <div class="grid-2">
+        <div>
+          <h2>Primary Comms</h2>
+          <p><strong>Call / Text:</strong> (808) 699-3242</p>
+          <p><strong>Email:</strong> info@torqueopsauto.com</p>
+          <p><strong>Service Area:</strong> Oʻahu – mobile operations</p>
+
+          <h3>Best Format When You Message</h3>
+          <ul class="bullet-list">
+            <li>Year / make / model</li>
+            <li>What it’s doing (or not doing)</li>
+            <li>How long it’s been happening</li>
+            <li>Where the vehicle is located and License Plate/VIN</li>
+          </ul>
+          <p class="small">
+            Example: “2010 Tacoma VIN: XXXXXXXXXX, grinding noise front left when braking, 3 days, parked at home in Ewa Beach.”
+          </p>
+        </div>
+
+        <div class="card soft">
+          <h2>Online Request Form</h2>
+          <p>
+            Don’t want to call yet? Use this basic form – it will open in your email app and pre-fill a template.
+          </p>
+          <a class="btn secondary" href="mailto:info@torqueopsauto.com?subject=Service%20Request%20-%20TorqueOps%20Auto&body=Vehicle%20Year/Make/Model:%0AProblem/Symptoms:%0ALocation:%0AUrgency%20(1-5):%0ABest%20time%20to%20reach%20you:">
+            Open Email Template
+          </a>
+          <p class="small">
+            If you don’t see an email window pop up, copy the address above and send the details manually.
+          </p>
+        </div>
+      </div>
+
+      <section class="section soft">
+        <h2>Social & Updates</h2>
+        <p>
+          Follow TorqueOps on social for before/after shots, project breakdowns, and schedule updates.
+        </p>
+        <ul class="bullet-list">
+          <li>Facebook: <strong>@TorqueOpsMobileMechanic</strong></li>
+          <li>Instagram: <strong>@TorqueOpsMM</strong></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="tiny">© <span id="year"></span> TorqueOps Auto. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
