@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Services – TorqueOps Auto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Services and capabilities offered by TorqueOps Auto mobile mechanic." />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-bar">
+      <div class="logo-block">
+        <span class="logo-main">Torque<span class="accent">Ops</span></span>
+        <span class="logo-sub">Mobile Mechanic Operations</span>
+      </div>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <h1>Capabilities & Services</h1>
+      <p class="lead">
+        Every job starts with straight intel: what’s wrong, what it’ll take, and what your options are.
+        Pricing is transparent and based on time, difficulty, and parts – not mystery fees.
+      </p>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>Diagnostics & Triage</h2>
+          <ul class="bullet-list">
+            <li>Scan tool diagnostics and code pulls</li>
+            <li>No-start and hard-start troubleshooting</li>
+            <li>Idle issues, misfires & drivability problems</li>
+            <li>Pre-purchase checkovers (used vehicles)</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>Maintenance & Repairs</h2>
+          <ul class="bullet-list">
+            <li>Brakes – pads, rotors, basic hydraulics</li>
+            <li>Suspension checks & component swaps</li>
+            <li>Battery, alternator & basic charging issues</li>
+            <li>Fluids, filters, belts and other essentials</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card">
+          <h2>Mobile Support Ops</h2>
+          <ul class="bullet-list">
+            <li>On-site repairs at home, work, or roadside (where safe)</li>
+            <li>Stranded driver support & basic rescue jobs</li>
+            <li>Emergency “get me rolling to the shop” solutions</li>
+          </ul>
+        </div>
+        <div class="card">
+          <h2>What I Don’t Do (Yet)</h2>
+          <ul class="bullet-list">
+            <li>Full engine rebuilds on the street</li>
+            <li>Heavy driveline swaps in unsafe locations</li>
+            <li>Jobs that can’t be done safely with mobile tools</li>
+          </ul>
+          <p class="small">
+            If a job is out of scope or unsafe, I’ll tell you up front and help you figure out a smarter plan of attack.
+          </p>
+        </div>
+      </div>
+
+      <section class="section soft">
+        <h2>How Pricing Works</h2>
+        <p>
+          Most work is based on a diagnostic fee plus a labor rate that scales with difficulty.
+          You’ll get a clear estimate before I turn a wrench. No surprise “shop fees” or
+          random charges for air and sunlight.
+        </p>
+        <p>
+          Text me your vehicle, symptoms, and location, and I’ll give you a ballpark before booking.
+        </p>
+        <a href="contact.html" class="btn primary">Request a Quote / Book an Operation</a>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="tiny">© <span id="year"></span> TorqueOps Auto. All rights reserved.</p>
+    </div>
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </footer>
+</body>
+</html>
